@@ -6,25 +6,25 @@ cask "den" do
     end
   end
 
-  version "1.14.0"
+  version "2.0.0"
 
   on_macos do
     on_arm do
-      sha256 "479dd759f7c7e1bd602ce8502315480a5004d3ff3b7be823f08ace23799bba1d"
+      sha256 "da2ad273fdd8379568a37572c55a0042a62f2dabca9cb319216767c8f6626d3d"
       url "https://github.com/PillowPillow/den/releases/download/v#{version}/den_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1be5ae14b0d108aa558646338702ac09e278717c34c8061d5192fafd7bb0fed7"
+      sha256 "1dc65df2cd3d80a219cbbaa3a245790b38d98fd266b5714a641e42202c2f1a9a"
       url "https://github.com/PillowPillow/den/releases/download/v#{version}/den_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "75670b0fc5efc7f435fba99ce8e0be0ded57ec63403ee21e5fa08333a49a6869"
+      sha256 "e32d4fb35e08b159eec9b59954bd21fd2f8303a20972e51e581925d2cb4f5042"
       url "https://github.com/PillowPillow/den/releases/download/v#{version}/den_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0f07531f55a9ec17a8b017e38b6f8bc8739e43ed74e6d9c513f2fa054f9e685e"
+      sha256 "918d3a16971674cd545840434aa9d972f68c0f289fd8b03481bdb54f149a59ed"
       url "https://github.com/PillowPillow/den/releases/download/v#{version}/den_#{version}_linux_amd64.tar.gz"
     end
   end
