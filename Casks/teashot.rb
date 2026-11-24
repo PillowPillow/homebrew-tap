@@ -1,6 +1,6 @@
 cask "teashot" do
-  version "1.1.0"
-  sha256 "7e5ad5cbd656f9e98e95d0b41e64d5104be70a6f97a9b854fedaf8bf83ea2f3a"
+  version "1.1.1"
+  sha256 "5d64820f7f0669a1d9e3a332e2e3eff97b18f31598ebc54de0fe29bfa036f1f8"
 
   url "https://github.com/PillowPillow/tea-shot/releases/download/v#{version}/TeaShot.zip"
   name "TeaShot"
