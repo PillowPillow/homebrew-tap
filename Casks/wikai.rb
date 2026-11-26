@@ -6,25 +6,25 @@ cask "wikai" do
     end
   end
 
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "bc3db922ee1634dd7dea1a3883818f0109ab09acded16f15378c5382b3c94763"
+      sha256 "5be1d0c6ebf1b752ff8f63e796646eeda5b59b74c699fb69de0bcaa027b376ba"
       url "https://github.com/PillowPillow/wikai/releases/download/v#{version}/wikai_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "98807218d8f55a713cfd2f2ad84083e1075150d53a2f67e26f447b27837f3ada"
+      sha256 "e52023e4188996bc187f7bcd1454c298434e9972a4af38ba2225356d5e5079c3"
       url "https://github.com/PillowPillow/wikai/releases/download/v#{version}/wikai_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ada51b3d99800de8b5b64422521cfcd4f22ef8a709ad3fb74734e5edd781253e"
+      sha256 "0bcf24aabc21fe950ae768a0b08bfa2eaa41760860b8bc28f54117bc33732e2d"
       url "https://github.com/PillowPillow/wikai/releases/download/v#{version}/wikai_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d8bac0eac0e0ff7a9b15531c17094e0b0ba6fe4fb30d217467650916429bd98f"
+      sha256 "06dad3f2c27bd4ef76511a2e5e3dd48d2a16f16829fe240c40af4f9160772d09"
       url "https://github.com/PillowPillow/wikai/releases/download/v#{version}/wikai_#{version}_linux_amd64.tar.gz"
     end
   end
