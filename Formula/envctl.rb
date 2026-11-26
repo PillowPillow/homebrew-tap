@@ -1,28 +1,28 @@
 class Envctl < Formula
   desc "Environment files from a template and SOPS/age-encrypted secrets"
   homepage "https://github.com/PillowPillow/envctl"
-  version "2.1.0"
+  version "2.1.1"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/PillowPillow/envctl/releases/download/v#{version}/envctl_darwin_arm64.tar.gz"
-      sha256 "7ab87d5f1219db895b2f3dc15338d7698f1ac6ae0ebbad875a5b2a0837bfd5e9"
+      sha256 "1b1ef42e1b3e52fdb79cb1f44cec568bf00c3a6148a5a1e8db3dbe1321bc85c0"
     end
     on_intel do
       url "https://github.com/PillowPillow/envctl/releases/download/v#{version}/envctl_darwin_amd64.tar.gz"
-      sha256 "54e8a1e74e57f6218a00b2bd731ad9e1e1015a29983eeb00f5b40b4429781b3e"
+      sha256 "c1ce825caa77b0145ca8210d2d4d8909ad6ac04ff2acb1e65895bbbf0ec7d94f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PillowPillow/envctl/releases/download/v#{version}/envctl_linux_arm64.tar.gz"
-      sha256 "d5f7a727c695c5437d51113d09d64664842b6cd1c8cc2e21a5e0aa329d3fae7d"
+      sha256 "3f99a2fea14f713c4ec6f5f1ca544aad17c8cad829841d6a29a5fa4f444d0daa"
     end
     on_intel do
       url "https://github.com/PillowPillow/envctl/releases/download/v#{version}/envctl_linux_amd64.tar.gz"
-      sha256 "0e1447c3343aa884de6fd1923debffe92ada1130d0cbfe2b1c49d5283d0f996e"
+      sha256 "8a46052af52a83d21ddc65a977329741973b3e66ea9c2bb33830c76b5705813a"
     end
   end
 
